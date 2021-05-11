@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="druid-1.1.10">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/src/main/java/lib" />
+      <root url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" />
+      <root url="file://$PROJECT_DIR$/src/main/java/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/src/main/java/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/src/main/java/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib" recursive="false" />
+  </library>
+</component>
