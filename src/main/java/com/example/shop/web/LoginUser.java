@@ -13,31 +13,15 @@ public class LoginUser extends HttpServlet {
     private UserServie userServie = new UserServiceImpl();
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)  {
-        String name = request.getParameter("name");
-        String password = request.getParameter("password");
-        if (name!=null&&password!=null) {
-            User user = new User();
-            System.out.println("终于进来了");
-            user.setName(name);
-            user.setPassword(password);
-            User user1 = userServie.loginUser(user);
-            try {
-                if (user1 != null) {
-                    response.setCharacterEncoding("UTF-8");
-                    response.setContentType("UTF-8");
-                    response.getWriter().write("登录成功");
-                    return;
-                }
-                response.sendRedirect("localhost:8080/login.jsp");
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-
+        dofun(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) {
+        dofun(request, response);
+    }
+
+    private void dofun(HttpServletRequest request, HttpServletResponse response) {
         String name = request.getParameter("name");
         String password = request.getParameter("password");
         if (name!=null&&password!=null) {
@@ -58,7 +42,5 @@ public class LoginUser extends HttpServlet {
                 e.printStackTrace();
             }
         }
-
-
     }
 }

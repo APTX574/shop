@@ -28,16 +28,15 @@
 <script type="text/javascript" src="WEB-INF/lib/jquery-3.6.0.min.js"></script>
 <script type="text/javascript">
     $(function () {
-        $("#name").validate({
 
+        let password = $("#password").val();
+        let password2 = $("#password2").val();
+        $("password2").blur(function (){
+            if (password !== password2) {
+                $("#tx").text("密码不一致请确认密码");
+            }
         })
-
-
     });
-
-
-
-
 
 </script>
 <body>
@@ -45,7 +44,8 @@
 <h1>用户注册</h1>
 <br/>
 <br/>
-<form>
+<form action="${pageContext.request.contextPath}/resister" method="post">
+
     <table>
         <tbody>
         <tr>
@@ -63,6 +63,8 @@
             <td><label>
                 <input type="password" name="password2" id="password2">
             </label></td>
+            <a id="tx"></a>
+
         </tr><tr>
             <td>性别:</td>
             <td><label>
@@ -74,6 +76,9 @@
             <td><label>
                 <input type="text" name="birth">
             </label></td>
+        </tr>
+        <tr>
+        <td><button type="submit">登录</button></td>
         </tr>
 
 
