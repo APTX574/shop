@@ -61,7 +61,7 @@
         </tr><tr>
             <td>确认密码：</td>
             <td><label>
-                <input type="password" name="password2" id="password2">
+                <input type="password" name="password" id="password2">
             </label></td>
             <a id="tx"></a>
 
@@ -78,7 +78,7 @@
             </label></td>
         </tr>
         <tr>
-        <td><button type="submit">登录</button></td>
+        <td><button type="submit">注册</button></td>
         </tr>
 
 
