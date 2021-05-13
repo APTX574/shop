@@ -44,7 +44,7 @@
 <h1>用户注册</h1>
 <br/>
 <br/>
-<form action="${pageContext.request.contextPath}/resister" method="post">
+<form action="${pageContext.request.contextPath}/resister" method="post" enctype="multipart/form-data">
 
     <table>
         <tbody>
@@ -72,9 +72,9 @@
                 <input type="radio" name="sex" value="女">女
             </label></td>
         </tr><tr>
-            <td>生日：</td>
+            <td>头像</td>
             <td><label>
-                <input type="text" name="birth">
+                <input type="file" name="tx">
             </label></td>
         </tr>
         <tr>

@@ -3,10 +3,9 @@ package com.example.shop.web;
 import com.example.shop.pojo.User;
 import com.example.shop.service.UserServie;
 import com.example.shop.service.impl.UserServiceImpl;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 
+
+import javax.servlet.http.*;
 import java.io.IOException;
 
 public class LoginUser extends HttpServlet {
