@@ -14,10 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29881ca-3678-4bb4-8213-7f839467728a" name="默认变更列表" comment="v1.1.3完善了头像上传">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop/web/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop/web/LoginUser.java" afterDir="false" />
-    </list>
+    <list default="true" id="c29881ca-3678-4bb4-8213-7f839467728a" name="默认变更列表" comment="v1.1.4下载功能" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -366,7 +363,7 @@
       <workItem from="1620886045871" duration="6791000" />
       <workItem from="1620962321923" duration="139000" />
       <workItem from="1620963262008" duration="313000" />
-      <workItem from="1620988842944" duration="2958000" />
+      <workItem from="1620988842944" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1620729117728</created>
@@ -396,7 +393,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620892405761</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v1.1.4下载功能">
+      <created>1620992336147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1620992336147</updated>
+    </task>
+    <task id="LOCAL-00006" summary="v1.1.4下载功能">
+      <created>1620992395085</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620992395085</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +450,7 @@
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.1.2加入了头像上传,降低了tomcat版本解决了servlet的包冲突" />
     <MESSAGE value="v1.1.3完善了头像上传" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.3完善了头像上传" />
+    <MESSAGE value="v1.1.4下载功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.4下载功能" />
   </component>
 </project>
