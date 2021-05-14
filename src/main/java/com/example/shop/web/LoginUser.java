@@ -32,8 +32,7 @@ public class LoginUser extends HttpServlet {
                 if (user1 != null) {
                     response.setContentType("text/html;charset=UTF-8");
                     response.setCharacterEncoding("UTF-8");
-
-                    response.getWriter().write("登录成功");
+                    response.encodeRedirectURL("${pageContext.request.contextPath}/resister");
                     return;
                 }
                 response.sendRedirect("localhost:8080/shop/login.jsp");

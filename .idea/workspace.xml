@@ -14,10 +14,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29881ca-3678-4bb4-8213-7f839467728a" name="默认变更列表" comment="v1.1.2加入了头像上传,降低了tomcat版本解决了servlet的包冲突">
+    <list default="true" id="c29881ca-3678-4bb4-8213-7f839467728a" name="默认变更列表" comment="v1.1.3完善了头像上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop/web/Resister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop/web/Resister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resister.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/resister.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/shop/web/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/shop/web/LoginUser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="jsf" />
+        <option value="Class" />
         <option value="Jsp File" />
       </list>
     </option>
@@ -95,12 +94,13 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/lib" />
+    <property name="jdk.selected.JAVA_MODULE" value="16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/file" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="库" />
+    <property name="project.structure.last.edited" value="模块" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3255814" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
@@ -110,6 +110,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProgram\shop\src\main\webapp\file" />
       <recent name="D:\IdeaProgram\shop\src\main\java\lib" />
       <recent name="D:\IdeaProgram\shop\src\main\webapp\WEB-INF\lib" />
       <recent name="D:\IdeaProgram\shop\src\main\webapp" />
@@ -362,7 +363,10 @@
       <workItem from="1620875812957" duration="2734000" />
       <workItem from="1620880102743" duration="4118000" />
       <workItem from="1620885075773" duration="23000" />
-      <workItem from="1620886045871" duration="4771000" />
+      <workItem from="1620886045871" duration="6791000" />
+      <workItem from="1620962321923" duration="139000" />
+      <workItem from="1620963262008" duration="313000" />
+      <workItem from="1620988842944" duration="2958000" />
     </task>
     <task id="LOCAL-00001" summary="v1.0">
       <created>1620729117728</created>
@@ -385,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620882520650</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v1.1.3完善了头像上传">
+      <created>1620892405761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620892405761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +410,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="false" />
+                  <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
               <option name="FILTERS">
@@ -427,6 +438,7 @@
     <MESSAGE value="v1.0" />
     <MESSAGE value="v1.1" />
     <MESSAGE value="v1.1.2加入了头像上传,降低了tomcat版本解决了servlet的包冲突" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.1.2加入了头像上传,降低了tomcat版本解决了servlet的包冲突" />
+    <MESSAGE value="v1.1.3完善了头像上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1.3完善了头像上传" />
   </component>
 </project>
