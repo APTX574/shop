@@ -11,11 +11,12 @@
     <title>下载</title>
 </head>
 <body>
-<form method="post" ></form>
-<label>填写文件名
-    <input type="text">
-</label>
-<button type="submit">下载</button>
+<form method="post" action="http://localhost:8080/shop/download">
+    <label>填写文件名
+        <input type="text">
+    </label>
+    <button type="submit">下载</button>
+</form>
 
 
 

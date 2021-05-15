@@ -30,12 +30,12 @@ public class LoginUser extends HttpServlet {
             User user1 = userServie.loginUser(user);
             try {
                 if (user1 != null) {
-                    response.setContentType("text/html;charset=UTF-8");
-                    response.setCharacterEncoding("UTF-8");
-                    response.encodeRedirectURL("${pageContext.request.contextPath}/resister");
+
+                    response.setStatus(302);
+                    response.sendRedirect("http://localhost:8080/shop/download.jsp");
                     return;
                 }
-                response.sendRedirect("localhost:8080/shop/login.jsp");
+                response.sendRedirect("http://localhost:8080/shop/login.jsp");
             } catch (IOException e) {
                 e.printStackTrace();
             }
