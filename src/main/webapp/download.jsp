@@ -13,7 +13,8 @@
 <body>
 <form method="post" action="http://localhost:8080/shop/download">
     <label>填写文件名
-        <input type="text">
+        <input type="text" name="fileName">
+
     </label>
     <button type="submit">下载</button>
 </form>
