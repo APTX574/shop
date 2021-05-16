@@ -2,6 +2,9 @@ package com.example.shop.web;
 
 
 
+
+
+
 import javax.servlet.ServletContext;
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServlet;
@@ -22,10 +25,14 @@ public class Down extends HttpServlet {
     }
 
     private void down(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        String filePath = "D:\\IdeaProgram\\shop\\src\\main\\webapp\\file\\" + request.getParameter("fileName");
+        String fileName = request.getParameter("fileName");
+        String filePath = "/file/" + fileName;
         ServletContext servletContext = request.getServletContext();
-        response.setContentType(servletContext.getMimeType(filePath));
         InputStream resourceAsStream = servletContext.getResourceAsStream(filePath);
+        response.setHeader("Content-Disposition", "attachment;filename=" + fileName);
+
+
+        response.setContentType(servletContext.getMimeType(filePath));
         ServletOutputStream outputStream = response.getOutputStream();
         byte[] buff = new byte[10240];
         int len;
