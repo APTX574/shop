@@ -34,3 +34,7 @@ buildNumber.properties
 .mvn/timing.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
+/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml
+/.idea/libraries/Maven__commons_io_commons_io_2_2.xml
+/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml
+/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_4_0_1.xml

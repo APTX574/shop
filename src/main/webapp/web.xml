@@ -30,6 +30,15 @@
         <servlet-name>download</servlet-name>
         <url-pattern>/download</url-pattern>
     </servlet-mapping>
+    <filter>
+        <filter-name>filter</filter-name>
+        <filter-class>com.example.shop.web.Filter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>filter</filter-name>
+        <url-pattern>/file/p1.jpg</url-pattern>
+
+    </filter-mapping>
 
 
 </web-app>

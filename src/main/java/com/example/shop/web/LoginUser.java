@@ -30,18 +30,13 @@ public class LoginUser extends HttpServlet {
             User user1 = userServie.loginUser(user);
             try {
                 if (user1 != null) {
+                    HttpSession session = request.getSession();
+                    session.setAttribute("user", name);
                     Cookie cookie = new Cookie("name", user1.getName());
                     cookie.setMaxAge(60*60*24*7);
-                    cookie.setPath(request.getContextPath() + "xxx");
                     response.addCookie(cookie);
                     response.setStatus(302);
-                    Cookie[] cookies = request.getCookies();
-                    Cookie cookie1;
-                    for (Cookie cook : cookies) {
-                        if (cook.getName() == "xxx") {
-                            cookie1 = cook;
-                        }
-                    }
+
 
                     response.sendRedirect("http://localhost:8080/shop/download.jsp");
                     return;
